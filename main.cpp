@@ -37,7 +37,7 @@ int main() {
                     cout << "Ошибка: треугольник с такими сторонами не существует!\n";
                     break;
                 }
-                cout << "Площадь = " << triangleArea(a, b, c) << "\n";
+                cout << "Площадь = " << triangleArea(a, b, c) << "кв. см\n";
                 break;
 
             case 2:
@@ -47,7 +47,7 @@ int main() {
                     cout << "Ошибка: треугольник с такими сторонами не существует!\n";
                     break;
                 }
-                cout << "Периметр = " << trianglePerimeter(a, b, c) << "\n";
+                cout << "Периметр = " << trianglePerimeter(a, b, c) << " см\n";
                 break;
 
             case 0:
